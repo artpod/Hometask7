@@ -8,17 +8,6 @@
 Опишіть класи книжки (розмір та колір не потрібні, але потрібна ціна та знижки) та верхній одяг (колір, розмір, ціна знижка),
 які реалізують притаманні їм інтерфейси.*/
 
-interface IItem
-{
-    void ApplyDiscount(String discount);
-    void ApplyPromocode(String promocode);
-
-    void SetColor(byte color);
-    void SetSize(byte size);
-
-    void SetPrice(double price);
-}
-
 interface IDiscount
 {
     void ApplyDiscount(String discount);
